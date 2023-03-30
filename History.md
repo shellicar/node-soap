@@ -1,3 +1,7 @@
+1.0.0-fix / 2023-03-30
+===================
+* [FIX] Add tests surrounding trim function used in wsdl parsing. Use native string.trim instead of regex replace for performance.
+
 1.0.0 / 2022-12-09
 ===================
 * [ENHANCEMENT] allow soap.createClient to create a new SOAP client from a WSDL string (#1191)
